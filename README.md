@@ -1,2 +1,2 @@
 # portfolio
-My portfolio (loftschool beginner)
+My portfolio 
