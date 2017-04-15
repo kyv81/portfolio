@@ -3,5 +3,11 @@ My portfolio
 
 ================================================
 
+15.04.17
+* Removed excess blocks
+* Added BEM-naming (camelCase)
+* Added about.html, career.html, portfolio.html
+* Updated index.html
+
 13.04.2017
-* Added main tags
+* Added main tags in index.html
