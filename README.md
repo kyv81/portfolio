@@ -2,6 +2,7 @@
 My portfolio 
 
 ================================================
+
 16.04.17
 * Fixed error with odd divs in career.html 
 
