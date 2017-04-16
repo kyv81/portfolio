@@ -4,6 +4,7 @@ My portfolio
 ================================================
 
 16.04.17
+* Added images and some minor stuff
 * Fixed error with odd divs in career.html 
 
 15.04.17
