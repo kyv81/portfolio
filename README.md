@@ -2,6 +2,8 @@
 My portfolio 
 
 ================================================
+24.04.17
+* Added css
 
 16.04.17
 * Added images and some minor stuff
