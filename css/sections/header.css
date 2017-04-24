@@ -1,0 +1,47 @@
+.header {
+	background: #ffffff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+	padding-bottom: 9px;
+	margin-bottom: 25px;
+}
+
+.header__brief-info, .header__feedback {
+	float: left;
+	width: 50%;
+}
+
+.header__brief-info {
+	padding-top: 9px;
+}
+
+.header__feedback {
+	text-align: right;
+	padding-top: 30px;
+}
+
+.logo__content {
+	border: 1px solid #bebebe;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo__img {
+	display: block;
+}
+
+.logo__name {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 19px;
+	max-width: 235px;
+}
+
+.contacts {
+	font-weight: 600;
+	color: #32c3e5;
+	text-decoration: none;
+	padding-bottom: 5px;
+	background: url('../../img/decor/dotted-border.png') 0 bottom repeat-x;
+}
