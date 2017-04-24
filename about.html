@@ -1,83 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Обо мне</title>
+	
+	<link rel="stylesheet" href="css/layout/fonts.css">
+	<link rel="stylesheet" href="css/layout/font-awesome.css">
+	<link rel="stylesheet" href="css/layout/normalize.css">
+	<link rel="stylesheet" href="css/layout/adjustment.css">
+
+	<link rel="stylesheet" href="css/sections/header.css">
+	<link rel="stylesheet" href="css/sections/content.css">
+	<link rel="stylesheet" href="css/sections/menu.css">
+	<link rel="stylesheet" href="css/sections/about.css">
+	<link rel="stylesheet" href="css/sections/footer.css">
+
+	<script src="html5shiv.js"></script>
 </head>
 
 <body>
 	<div class="wrapper">
 		
-		<!-- HEADER -->
+<!-- HEADER -->
 		<header class="header">
-			<div class="container">
-				<div class="header__briefInfo">
-					<div class="header__logo">
-						<img class="header__img"
-							 src="content/cisco_ccna_RS.png" 
-							 alt="Just a Logo"
-							 width="150">
-						<p class="header__name">
+			<div class="container clearfix">
+				
+				<div class="header__brief-info">
+					<div class="logo">
+						<div class="logo__content">
+							<img src="img/content/cisco_ccna_RS.png" alt="Logo"
+							class="logo__img" width="65">
+						</div>
+						<div class="logo__name">
 							Юрий Курбаков
-						</p>
+						</div>
 					</div>
 				</div>
-				
 				<div class="header__feedback">
-					<a href="#" class="header__link">Мои контакты</a>
-					<ul class="header__list">
-						<li class="header__listItem"></li>
-						<li class="header__listItem"></li>
-						<li class="header__listItem"></li>
-					</ul>
+					<a href="#" class="contacts">Мои контакты</a>
 				</div>
 			</div>
 		</header>
 		
-		<!-- CONTENT -->
 		<section class="content">
-			<div class="container">
+			<div class="container clearfix">
 			
-			<!-- SIDEBAR -->
-				<aside class="content__sidebar">
+<!-- SIDEBAR -->
+				<aside class="sidebar">
 					<nav class="menu">
 						<ul class="menu__list">
-							<li class="menu__listItem">
-								<a href="about.html" class="menu__listLink">
-								Обо мне</a>
+							<li class="menu__item menu__item--active">
+								<a href="about.html" class="menu__link">
+									<i class="fa fa-user-secret menu__icon"></i>
+									<span class="menu__text">Обо мне</span>
+								</a>
 							</li>
-							<li class="menu__listItem">
-								<a href="career.html" class="menu__listLink">
-								Карьерный путь</a>
+							<li class="menu__item">
+								<a href="career.html" class="menu__link">
+									<i class="fa fa-rocket menu__icon"></i>
+									<span class="menu__text">Карьерный путь	</span>	
+								</a>
 							</li>
-							<li class="menu__listItem">
-								<a href="portfolio.html" class="menu__listLink">
-								Портфолио</a>
+							<li class="menu__item">
+								<a href="portfolio.html" class="menu__link">
+									<i class="fa fa-briefcase menu__icon"></i>
+									<span class="menu__text">Портфолио</span>
+								</a>
 							</li>
 						</ul>
 					</nav>
 				</aside>
 			
-			<!-- DESCRIPTION -->
-				<main class="about">
-					<div class="about__content">
+<!-- CONTENT -->
+				<main class="main">
+					<div class="about clearfix">
+						
 						<div class="about__photo">
-							<img class="about__img"  
-								 src="content/photo.jpg" 
-								 alt="Large Photo"
-								 width="700">
+							<div class="about__pic">
+								<img class="about__img"  
+									 src="img/content/photo2.jpg" 
+									 alt="Large Photo">
+							</div>
 						</div>
 
 						<div class="about__desc">
-							<h1 class="about__header">Обо мне</h1>
-							<div class="about__text">
+							<h1 class="content-header">Обо мне</h1>
+							<div class="about__text text-block">
 								<p>Меня зовут Юрий. Не так давно я серьезно увлекся сетевыми технологиями, сдал сертификацию Cisco, начал готовиться к Linux сертификации, но недавно сфера программирования настолько увлекла меня, что я стал уделять его изучению все свободное время.</p>
 								<p>Хоть я и не так давно изучаю его, буквально пару месяцев максимум, но чувствую, что это мое призвание и надеюсь, что хобби перерастет в постоянную работу. Как говорил Конфуций <cite>выберите себе работу по душе, и вам не придется работать ни одного дня в своей жизни</cite>.</p>
 								<p>Для начала хватит. Будет вдохновение - еще напишу! &#9786;</p>
 							</div>
 							<div class="about__resume">
-								<a href="#" class="about__resumeLink">
-								Скачать резюме</a>
+								<a href="#" class="button" download>
+									<i class="fa fa-download button__icon"></i>
+									<span class="button__text">Скачать резюме</span>	
+								</a>
 							</div>
 						</div>
 					</div>
@@ -86,27 +105,29 @@
 		</section>
 	</div>
 
-	<!-- FOOTER -->
+<!-- FOOTER -->
 	<footer class="footer">
-		<div class="container">
+		<div class="container clearfix">
 			<div class="footer__info">
-					<p>
-						&copy;&nbsp;Дизайн сайта был разработан в школе LoftSchool
-					</p>
+					<div class="copyright">
+						&copy; Дизайн сайта был разработан в школе LoftSchool
+					</div>
 			</div>
 			
 			<div class="footer__pics">
-				<ul class="footer__list">
-					<li class="footer__listIcon">
-						<a href="#" class="footer__listLink"></a>
-					</li>
-					<li class="footer__listIcon">
-						<a href="#" class="footer__listLink"></a>
-					</li>
-					<li class="footer__listIcon">
-						<a href="#" class="footer__listLink"></a>
-					</li>
-				</ul>
+				<div class="icons">
+					<ul class="icons__list">
+						<li class="icons__item">
+							<a href="#" class="icons__link icons__link--fb"></a>
+						</li>
+						<li class="icons__item">
+							<a href="#" class="icons__link icons__link--vk"></a>
+						</li>
+						<li class="icons__item">
+							<a href="#" class="icons__link icons__link--tw"></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</footer>
