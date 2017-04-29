@@ -1,228 +1,236 @@
-<!DOCTYPE html>
-<html lang="ru">
+
+<!doctype html>
+<html lang="ru-RU">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Карьерный путь</title>
-	<link rel="stylesheet" href="css/layout/fonts.css">
-	<link rel="stylesheet" href="css/layout/font-awesome.css">
-	<link rel="stylesheet" href="css/layout/normalize.css">
-	<link rel="stylesheet" href="css/layout/adjustment.css">
+	<meta charset="UTF-8">
+	<title>Портфолио</title>
 
-	<link rel="stylesheet" href="css/sections/header.css">
-	<link rel="stylesheet" href="css/sections/content.css">
-	<link rel="stylesheet" href="css/sections/menu.css">
-	<link rel="stylesheet" href="css/sections/about.css">
-	<link rel="stylesheet" href="css/sections/footer.css">
-	<link rel="stylesheet" href="css/sections/career.css">
-	<link rel="stylesheet" href="css/sections/portfolio.css">
+    <link rel="stylesheet" href="css/layout/normalize.css">
+    <link rel="stylesheet" href="css/layout/fonts.css">
+    <link rel="stylesheet" href="css/layout/adjustment.css">
+    <link rel="stylesheet" href="css/layout/font-awesome.css">
 
-	<script src="html5shiv.js"></script>
+    <link rel="stylesheet" href="css/sections/header.css">
+    <link rel="stylesheet" href="css/sections/sidebar.css">
+    <link rel="stylesheet" href="css/sections/content.css">
+    <link rel="stylesheet" href="css/sections/footer.css">
 
+    <link rel="stylesheet" href="css/sections/portfolio.css">
 </head>
-
 <body>
 	<div class="wrapper">
-		
+		<div class="main-content">
+
 <!-- HEADER -->
-		<header class="header">
-			<div class="container clearfix">
-				
-				<div class="header__brief-info">
-					<div class="logo">
-						<div class="logo__content">
-							<img src="img/content/cisco_ccna_RS.png" alt="Logo"
-							class="logo__img" width="65">
-						</div>
-						<div class="logo__name">
-							Юрий Курбаков
-						</div>
-					</div>
-				</div>
-				<div class="header__feedback">
-					<a href="#" class="contacts">Мои контакты</a>
-				</div>
-			</div>
-		</header>
-		
-		
-		<section class="content">
-			<div class="container">
-			
-<!-- SIDEBAR -->
-				<aside class="sidebar">
-					<nav class="menu">
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a href="about.html" class="menu__link">
-									<i class="fa fa-user-secret menu__icon"></i>
-									<span class="menu__text">Обо мне</span>
-								</a>
-							</li>
-							<li class="menu__item">
-								<a href="career.html" class="menu__link">
-									<i class="fa fa-rocket menu__icon"></i>
-									<span class="menu__text">Карьерный путь	</span>	
-								</a>
-							</li>
-							<li class="menu__item menu__item--active">
-								<a href="portfolio.html" class="menu__link">
-									<i class="fa fa-briefcase menu__icon"></i>
-									<span class="menu__text">Портфолио</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
-				</aside>
-			
+            <header class="header">
+                <div class="container clearfix">
+                    <div class="header__brief">
+
+                        <div class="logo">
+                            <div class="logo__content">
+                                <img src="img/content/cisco_ccna_RS.png" alt="Logo" 
+                                class="logo__img"
+                                width="60" height="60">
+                            </div>
+                            <div class="logo__name">
+                                Юрий Курбаков
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="header__feedback">
+
+                        <div class="contacts">
+                            <a href="#" class="contacts__link">Мои контакты</a>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
 <!-- CONTENT -->
-				<main class="main">
-					<h1 class="content-header">Портфолио</h1>
-					<div class="portfolio">
-						<ul class="portfolio__list clearfix">
-							<li class="portfolio__item">
-								<a href="#" class="portfolio__link" target="_blank">
-									<div class="portfolio__img">
-										<img src="img/content/dealsApp.png" alt="Deals App"
-											 class="portfolio__pic">
-									</div>
-									<div class="portfolio__text">
-										<div class="portfolio__title">
-											Deals App
-										</div>
-										<div class="portfolio__desc">
-											Продажа одежды
-										</div>
-										<div class="portfolio__type">
-											<i class="fa fa-mobile-phone portfolio__type-icon"></i>
-											<div class="portfolio__type-title">
-												Приложение
-											</div>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="portfolio__item">
-								<a href="#" class="portfolio__link" target="_blank">
-									<div class="portfolio__img">
-										<img src="img/content/dreamScapes.png" alt="Dream Scapes"
-											 class="portfolio__pic">
-									</div>
-									<div class="portfolio__text">
-										<div class="portfolio__title">
-											Dream Scapes
-										</div>
-										<div class="portfolio__desc">
-											Лагуна Люфтганза
-										</div>
-										<div class="portfolio__type">
-											<i class="fa fa-desktop portfolio__type-icon"></i>
-											<div class="portfolio__type-title">
-												Лендинг
-											</div>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="portfolio__item">
-								<a href="#" class="portfolio__link" target="_blank">
-									<div class="portfolio__img">
-										<img src="img/content/creativeStudio.png" alt="Creative Studio"
-											 class="portfolio__pic">
-									</div>
-									<div class="portfolio__text">
-										<div class="portfolio__title">
-											Creative Studio
-										</div>
-										<div class="portfolio__desc">
-											Танцевальная студия
-										</div>
-										<div class="portfolio__type">
-											<i class="fa fa-desktop portfolio__type-icon"></i>
-											<div class="portfolio__type-title">
-												Корпоративный сайт
-											</div>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="portfolio__item">
-								<a href="#" class="portfolio__link" target="_blank">
-									<div class="portfolio__img">
-										<img src="img/content/studioFrog.png" alt="Studio Frog"
-											 class="portfolio__pic">
-									</div>
-									<div class="portfolio__text">
-										<div class="portfolio__title">
-											Studio Frog
-										</div>
-										<div class="portfolio__desc">
-											Мебельный магазин
-										</div>
-										<div class="portfolio__type">
-											<i class="fa fa-desktop portfolio__type-icon"></i>
-											<div class="portfolio__type-title">
-												Лендинг
-											</div>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="portfolio__item">
-								<a href="#" class="portfolio__link" target="_blank">
-									<div class="portfolio__img">
-										<img src="img/content/carbonara.png" alt="Carbonara"
-											 class="portfolio__pic">
-									</div>
-									<div class="portfolio__text">
-										<div class="portfolio__title">
-											Carbonara
-										</div>
-										<div class="portfolio__desc">
-											Итальянский ресторан
-										</div>
-										<div class="portfolio__type">
-											<i class="fa fa-desktop portfolio__type-icon"></i>
-											<div class="portfolio__type-title">
-												Лендинг
-											</div>
-										</div>
-									</div>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</main>
-			</div>
-		</section>
+			<section class="content">
+				<div class="container clearfix">
+
+<!-- SIDEBAR -->
+                    <aside class="sidebar">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="about.html" class="nav__link">
+                                        <i class="fa fa-user-secret nav__link-icon"></i>
+                                        <span class="nav__link-text">Обо мне</span>
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="career.html" class="nav__link">
+                                        <i class="fa fa-rocket nav__link-icon"></i>
+                                        <span class="nav__link-text">Карьерный путь</span>
+                                    </a>
+                                </li>
+                                <li class="nav__item nav__item--active">
+                                    <a href="portfolio.html" class="nav__link">
+                                        <i class="fa fa-briefcase nav__link-icon"></i>
+                                        <span class="nav__link-text">Портфолио</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </aside>
+					
+<!-- MAIN -->
+					<main class="main">
+
+                        <div class="portfolio">
+                            <h1 class="content-title">Портфолио</h5>
+                            <ul class="portfolio__list clearfix">
+                                <li class="portfolio__item">
+                                    <a href="#" class="portfolio__link" target="_blank">
+                                        <div class="portfolio__img">
+                                            <img src="img/content/dealsApp.png" alt="Deals App"
+                                                 class="portfolio__pic">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <div class="portfolio__title">
+                                                Deals App
+                                            </div>
+                                            <div class="portfolio__desc">
+                                                Продажа одежды
+                                            </div>
+                                            <div class="portfolio__type">
+                                                <i class="fa fa-mobile-phone portfolio__type-icon"></i>
+                                                <div class="portfolio__type-title">
+                                                    Приложение
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="portfolio__item">
+                                    <a href="#" class="portfolio__link" target="_blank">
+                                        <div class="portfolio__img">
+                                            <img src="img/content/dreamScapes.png" alt="Dream Scapes"
+                                                 class="portfolio__pic">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <div class="portfolio__title">
+                                                Dream Scapes
+                                            </div>
+                                            <div class="portfolio__desc">
+                                                Лагуна Люфтганза
+                                            </div>
+                                            <div class="portfolio__type">
+                                                <i class="fa fa-desktop portfolio__type-icon"></i>
+                                                <div class="portfolio__type-title">
+                                                    Лендинг
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="portfolio__item">
+                                    <a href="#" class="portfolio__link" target="_blank">
+                                        <div class="portfolio__img">
+                                            <img src="img/content/creativeStudio.png" alt="Creative Studio"
+                                                 class="portfolio__pic">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <div class="portfolio__title">
+                                                Creative Studio
+                                            </div>
+                                            <div class="portfolio__desc">
+                                                Танцевальная студия
+                                            </div>
+                                            <div class="portfolio__type">
+                                                <i class="fa fa-desktop portfolio__type-icon"></i>
+                                                <div class="portfolio__type-title">
+                                                    Корпоративный сайт
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="portfolio__item">
+                                    <a href="#" class="portfolio__link" target="_blank">
+                                        <div class="portfolio__img">
+                                            <img src="img/content/studioFrog.png" alt="Studio Frog"
+                                                 class="portfolio__pic">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <div class="portfolio__title">
+                                                Studio Frog
+                                            </div>
+                                            <div class="portfolio__desc">
+                                                Мебельный магазин
+                                            </div>
+                                            <div class="portfolio__type">
+                                                <i class="fa fa-desktop portfolio__type-icon"></i>
+                                                <div class="portfolio__type-title">
+                                                    Лендинг
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="portfolio__item">
+                                    <a href="#" class="portfolio__link" target="_blank">
+                                        <div class="portfolio__img">
+                                            <img src="img/content/carbonara.png" alt="Carbonara"
+                                                 class="portfolio__pic">
+                                        </div>
+                                        <div class="portfolio__text">
+                                            <div class="portfolio__title">
+                                                Carbonara
+                                            </div>
+                                            <div class="portfolio__desc">
+                                                Итальянский ресторан
+                                            </div>
+                                            <div class="portfolio__type">
+                                                <i class="fa fa-desktop portfolio__type-icon"></i>
+                                                <div class="portfolio__type-title">
+                                                    Лендинг
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+					</main>
+				</div>
+			</section>
+		</div>
 	</div>
 
 <!-- FOOTER -->
-	<footer class="footer">
-		<div class="container clearfix">
-			<div class="footer__info">
-					<div class="copyright">
-						&copy; Дизайн сайта был разработан в школе LoftSchool
-					</div>
-			</div>
-			
-			<div class="footer__pics">
-				<div class="icons">
-					<ul class="icons__list">
-						<li class="icons__item">
-							<a href="#" class="icons__link icons__link--fb"></a>
-						</li>
-						<li class="icons__item">
-							<a href="#" class="icons__link icons__link--vk"></a>
-						</li>
-						<li class="icons__item">
-							<a href="#" class="icons__link icons__link--tw"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
+    <footer class="footer">
+        <div class="container clearfix">
+
+            <div class="footer__info">
+                <div class="copyright">
+                    © Дизайн сайта был разработан в школе LoftSchool
+                </div>
+            </div>
+
+            <div class="footer__pics">
+                <div class="icons">
+                    <ul class="icons__list">
+                        <li class="icons__item">
+                            <a href="#" class="icons__link icons__link--fb"></a>
+                        </li>
+                        <li class="icons__item">
+                            <a href="#" class="icons__link icons__link--vk"></a>
+                        </li>
+                        <li class="icons__item">
+                            <a href="#" class="icons__link icons__link--tw"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+		
 </body>
 </html>

@@ -1,135 +1,155 @@
-<!DOCTYPE html>
-<html lang="ru">
+
+<!doctype html>
+<html lang="ru-RU">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
 	<title>Обо мне</title>
-	
-	<link rel="stylesheet" href="css/layout/fonts.css">
-	<link rel="stylesheet" href="css/layout/font-awesome.css">
-	<link rel="stylesheet" href="css/layout/normalize.css">
-	<link rel="stylesheet" href="css/layout/adjustment.css">
 
-	<link rel="stylesheet" href="css/sections/header.css">
-	<link rel="stylesheet" href="css/sections/content.css">
-	<link rel="stylesheet" href="css/sections/menu.css">
-	<link rel="stylesheet" href="css/sections/about.css">
-	<link rel="stylesheet" href="css/sections/footer.css">
+    <link rel="stylesheet" href="css/layout/normalize.css">
+    <link rel="stylesheet" href="css/layout/fonts.css">
+    <link rel="stylesheet" href="css/layout/adjustment.css">
+    <link rel="stylesheet" href="css/layout/font-awesome.css">
 
-	<script src="html5shiv.js"></script>
+    <link rel="stylesheet" href="css/sections/header.css">
+    <link rel="stylesheet" href="css/sections/sidebar.css">
+    <link rel="stylesheet" href="css/sections/content.css">
+    <link rel="stylesheet" href="css/sections/footer.css">
+
+    <link rel="stylesheet" href="css/sections/about.css">
 </head>
-
 <body>
 	<div class="wrapper">
-		
-<!-- HEADER -->
-		<header class="header">
-			<div class="container clearfix">
-				
-				<div class="header__brief-info">
-					<div class="logo">
-						<div class="logo__content">
-							<img src="img/content/cisco_ccna_RS.png" alt="Logo"
-							class="logo__img" width="65">
-						</div>
-						<div class="logo__name">
-							Юрий Курбаков
-						</div>
-					</div>
-				</div>
-				<div class="header__feedback">
-					<a href="#" class="contacts">Мои контакты</a>
-				</div>
-			</div>
-		</header>
-		
-		<section class="content">
-			<div class="container clearfix">
-			
-<!-- SIDEBAR -->
-				<aside class="sidebar">
-					<nav class="menu">
-						<ul class="menu__list">
-							<li class="menu__item menu__item--active">
-								<a href="about.html" class="menu__link">
-									<i class="fa fa-user-secret menu__icon"></i>
-									<span class="menu__text">Обо мне</span>
-								</a>
-							</li>
-							<li class="menu__item">
-								<a href="career.html" class="menu__link">
-									<i class="fa fa-rocket menu__icon"></i>
-									<span class="menu__text">Карьерный путь	</span>	
-								</a>
-							</li>
-							<li class="menu__item">
-								<a href="portfolio.html" class="menu__link">
-									<i class="fa fa-briefcase menu__icon"></i>
-									<span class="menu__text">Портфолио</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
-				</aside>
-			
-<!-- CONTENT -->
-				<main class="main">
-					<div class="about clearfix">
-						
-						<div class="about__photo">
-							<div class="about__pic">
-								<img class="about__img"  
-									 src="img/content/photo2.jpg" 
-									 alt="Large Photo">
-							</div>
-						</div>
+		<div class="main-content">
 
-						<div class="about__desc">
-							<h1 class="content-header">Обо мне</h1>
-							<div class="about__text text-block">
-								<p>Меня зовут Юрий. Не так давно я серьезно увлекся сетевыми технологиями, сдал сертификацию Cisco, начал готовиться к Linux сертификации, но недавно сфера программирования настолько увлекла меня, что я стал уделять его изучению все свободное время.</p>
-								<p>Хоть я и не так давно изучаю его, буквально пару месяцев максимум, но чувствую, что это мое призвание и надеюсь, что хобби перерастет в постоянную работу. Как говорил Конфуций <cite>выберите себе работу по душе, и вам не придется работать ни одного дня в своей жизни</cite>.</p>
-								<p>Для начала хватит. Будет вдохновение - еще напишу! &#9786;</p>
+<!-- HEADER -->
+			<header class="header">
+				<div class="container clearfix">
+                    <div class="header__brief">
+
+                        <div class="logo">
+                            <div class="logo__content">
+                                <img src="img/content/cisco_ccna_RS.png" alt="Logo" 
+                                class="logo__img"
+                                width="60" height="60">
+                            </div>
+                            <div class="logo__name">
+                                Юрий Курбаков
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="header__feedback">
+
+                        <div class="contacts">
+                            <a href="#" class="contacts__link">Мои контакты</a>
+                        </div>
+
+                    </div>
+				</div>
+			</header>
+
+<!-- CONTENT -->
+			<section class="content">
+				<div class="container clearfix">
+
+<!-- SIDEBAR -->
+					<aside class="sidebar">
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item nav__item--active">
+									<a href="about.html" class="nav__link">
+										<i class="fa fa-user-secret nav__link-icon"></i>
+                                        <span class="nav__link-text">Обо мне</span>
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="career.html" class="nav__link">
+										<i class="fa fa-rocket nav__link-icon"></i>
+                                        <span class="nav__link-text">Карьерный путь</span>
+									</a>
+								</li>
+								<li class="nav__item">
+									<a href="portfolio.html" class="nav__link">
+										<i class="fa fa-briefcase nav__link-icon"></i>
+                                        <span class="nav__link-text">Портфолио</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</aside>
+					
+<!-- MAIN -->
+					<main class="main">
+
+						<div class="about clearfix">
+							<div class="about__photo">
+								<div class="about__pic">
+									<img src="img/content/photo2.jpg" class="about__pic-item" alt="">
+								</div>
 							</div>
-							<div class="about__resume">
-								<a href="#" class="button" download>
-									<i class="fa fa-download button__icon"></i>
-									<span class="button__text">Скачать резюме</span>	
-								</a>
+
+							<div class="about__desc">
+								<h1 class="content-title">Обо мне</h5>
+								<div class="about__text text-block">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nostrum aut temporibus, harum cum, recusandae eveniet reprehenderit porro incidunt esse!
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nostrum aut temporibus, harum cum, recusandae eveniet reprehenderit porro incidunt esse!
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nostrum aut temporibus, harum cum, recusandae eveniet reprehenderit porro incidunt esse!
+									</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nostrum aut temporibus, harum cum, recusandae eveniet reprehenderit porro incidunt esse!
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nostrum aut temporibus, harum cum, recusandae eveniet reprehenderit porro incidunt esse!
+                                    </p>
+								</div>
+								<div class="about__resume">
+									<a href="#" class="about__resume-link" download>
+										<i class="fa fa-download about__resume-icon"></i>
+									    <span class="about__resume-text">Cкачать резюме</span>
+                                    </a>
+								</div>
 							</div>
 						</div>
-					</div>
-				</main>
-			</div>
-		</section>
+					</main>
+				</div>
+			</section>
+		</div>
 	</div>
 
 <!-- FOOTER -->
 	<footer class="footer">
 		<div class="container clearfix">
-			<div class="footer__info">
-					<div class="copyright">
-						&copy; Дизайн сайта был разработан в школе LoftSchool
-					</div>
-			</div>
-			
-			<div class="footer__pics">
-				<div class="icons">
-					<ul class="icons__list">
-						<li class="icons__item">
-							<a href="#" class="icons__link icons__link--fb"></a>
-						</li>
-						<li class="icons__item">
-							<a href="#" class="icons__link icons__link--vk"></a>
-						</li>
-						<li class="icons__item">
-							<a href="#" class="icons__link icons__link--tw"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
+
+            <div class="footer__info">
+                <div class="copyright">
+                    © Дизайн сайта был разработан в школе LoftSchool
+                </div>
+            </div>
+
+            <div class="footer__pics">
+                <div class="icons">
+                    <ul class="icons__list">
+                        <li class="icons__item">
+                            <a href="#" class="icons__link icons__link--fb"></a>
+                        </li>
+                        <li class="icons__item">
+                            <a href="#" class="icons__link icons__link--vk"></a>
+                        </li>
+                        <li class="icons__item">
+                            <a href="#" class="icons__link icons__link--tw"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
 		</div>
 	</footer>
+		
+
 </body>
 </html>
