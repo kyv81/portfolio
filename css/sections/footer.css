@@ -1,56 +1,55 @@
 .footer__info, .footer__pics {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
 
 .footer__info {
-	padding-top: 18px;
+    padding-top: 18px;
 }
 
 .footer__pics {
-	text-align: right;
-	padding-top: 10px;
+    text-align: right;
+    padding-top: 10px;
 }
 
 .copyright {
-	font-size: 14px;
-	font-weight: 300;
-	color: #9c9c9c;
+    font-size: 14px;
+    font-weight: 300;
+    color: #9c9c9c;
 }
 
 .icons__item {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 6px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .icons__link {
-	width: 32px;
-	height: 32px;
-	display: block;
-	background: no-repeat center center;
+    width: 32px;
+    height: 31px;
+    display: block;
+    background: no-repeat center center;
 }
 
 .icons__link--fb {
-	background-image: url('../../img/icons/FaceBook.png');
+    background-image: url('../../img/icons/FaceBook.png');
 }
 
 .icons__link--fb:hover {
-	background-image: url('../../img/icons/FaceBookHover.png');
+    background-image: url('../../img/icons/FaceBookHover.png');
 }
 
 .icons__link--vk {
-	background-image: url('../../img/icons/vk.png');
+    background-image: url('../../img/icons/vk.png');
 }
 
 .icons__link--vk:hover {
-	background-image: url('../../img/icons/vkHover.png');
+    background-image: url('../../img/icons/vkHover.png');
 }
 
 .icons__link--tw {
-	background-image: url('../../img/icons/Twitter.png');
+    background-image: url('../../img/icons/Twitter.png');
 }
 
 .icons__link--tw:hover {
-	background-image: url('../../img/icons/TwitterHover.png');
+    background-image: url('../../img/icons/TwitterHover.png');
 }

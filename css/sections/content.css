@@ -1,43 +1,13 @@
-.sidebar, .main {
-	float: left;
-}
-
-.sidebar {
-	width: 220px;
-}
-
 .main {
-	margin-left: 20px;
-	width: 700px;
+    width: 73%;
+    float: right;
 }
 
-.content-header {
-	font-weight: 500;
-	font-size: 35px;
-	color: #414141;
-	margin-bottom: 30px;
-}
-
-.button {
-	padding: 7px 13px;
-	border: 2px solid #e85f61;
-	border-radius: 30px;
-	font-size: 14px;
-	font-weight: 600;
-	color: #e85f61;
-	text-decoration: none;
-}
-
-.button:hover {
-	background: #e85f61;
-	color: #fff;
-}
-
-.button__icon, .button__text {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.button__text {
-	margin-left: 8px;
+.content-title {
+    font-family: 'Fira Sans Medium';
+    font-size: 35px;
+    color: #414141;
+    line-height: 38px;
+    margin-bottom: 16px;
+    font-weight: 500;
 }

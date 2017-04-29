@@ -1,46 +1,68 @@
-.about__pic {
-	width: 220px;
-	height: 220px;
-	border-radius: 50%;
-	overflow: hidden;
-	border: 5px solid #fff;
-	display: inline-block;
-}
-
-.about__img {
-	display: block;
-	max-width: 100%;
-    /* max-height: 100%;  */
-}
-
-.about__photo, .about__desc {
-	float: left;
-}
-
 .about__photo {
-	width: 320px;
-	text-align: center;
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.about__pic {
+    display: inline-block;
+    border: 3px solid #fff;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.about__pic-item {
+    max-width: 220px;
+    max-height: 220px;
+    display: block;
 }
 
 .about__desc {
-	width: 380px;
-}
-
-.about__text {
-	height: 300px;
-	overflow: auto;
-	margin-bottom: 40px;
+    width: 56%;
+    float: right;
 }
 
 .text-block {
-	font-weight: 300;
+    color: #646464;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.about__text {
+    height: 316px;
+    overflow: auto;
+    margin-bottom: 44px;
 }
 
 .text-block p {
-	margin-bottom: 15px;
-	margin-top: 0;
+    margin: 0;
 }
 
 .about__resume {
-	text-align: right;
+    text-align: right;
+    margin-top: 57px;
+}
+
+.about__resume-link {
+    padding: 9px 12px;
+    border: 2px solid #e85f61;
+    color: #e85f61;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    font-family: 'Fira Sans Bold';
+}
+
+.about__resume-icon {
+    margin-right: 5px;
+}
+
+.about__resume-link:hover {
+    color: #fff;
+    background: #e85f61;
 }
