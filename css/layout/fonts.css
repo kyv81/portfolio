@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans Light';
     src: url('../../fonts/FiraSans/firasans-light-webfont.eot');
     src: url('../../fonts/FiraSans/firasans-light-webfont.eot?#iefix') format('embedded-opentype'),
          url('../../fonts/FiraSans/firasans-light-webfont.woff2') format('woff2'),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans Regular';
     src: url('../../fonts/FiraSans/firasans-regular-webfont.eot');
     src: url('../../fonts/FiraSans/firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../../fonts/FiraSans/firasans-regular-webfont.woff2') format('woff2'),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans Medium';
     src: url('../../fonts/FiraSans/firasans-medium-webfont.eot');
     src: url('../../fonts/FiraSans/firasans-medium-webfont.eot?#iefix') format('embedded-opentype'),
          url('../../fonts/FiraSans/firasans-medium-webfont.woff2') format('woff2'),
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans Bold';
     src: url('../../fonts/FiraSans/firasans-bold-webfont.eot');
     src: url('../../fonts/FiraSans/firasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../../fonts/FiraSans/firasans-bold-webfont.woff2') format('woff2'),
