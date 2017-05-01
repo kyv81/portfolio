@@ -1,7 +1,10 @@
 # portfolio
-My portfolio 
+My portfolio https://kyv81.ru
 
 ================================================
+
+01.05.17
+* Added adaptive version
 
 29.04.17
 * Added some changes in css
