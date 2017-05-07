@@ -3,6 +3,9 @@ My portfolio https://kyv81.ru
 
 ================================================
 
+07.05.17
+* Added animation
+
 01.05.17
 * Added adaptive version
 
