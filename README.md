@@ -3,6 +3,9 @@ My portfolio https://kyv81.ru
 
 ================================================
 
+09.05.17
+* Fixed some errors
+
 07.05.17
 * Added animation
 
