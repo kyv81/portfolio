@@ -1,32 +1,32 @@
 # portfolio
-My portfolio https://kyv81.ru
+Мой первый сайт-портфолио
 
 ================================================
 
 09.05.17
-* Fixed some errors
+* Исправлены ошибки в css
 
 07.05.17
-* Added animation
+* Добавлена анимация
 
 01.05.17
-* Added adaptive version
+* Добавлена адаптивная версия
 
 29.04.17
-* Added some changes in css
+* Добавлены изменения в css
 
 24.04.17
-* Added css
+* Добавлен css
 
 16.04.17
-* Added images and some minor stuff
-* Fixed error with odd divs in career.html 
+* Добавлены картинки
+* Исправлены ошибки с дивами в career.html 
 
 15.04.17
-* Removed excess blocks
-* Added BEM-naming
-* Added about.html, career.html, portfolio.html
-* Updated index.html
+* Удалены лишние блоки
+* Добавлено BEM-naming
+* Добавлены about.html, career.html, portfolio.html
+* Обновлен index.html
 
 13.04.2017
-* Added main tags in index.html
+* Добавлены основные теги в index.html
